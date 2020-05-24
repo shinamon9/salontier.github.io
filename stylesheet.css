@@ -35,7 +35,7 @@ header {
 .header-right li:hover {
 
   text-decoration-line: underline;
-
+　
 }
 .header-right li {
 
@@ -56,6 +56,7 @@ header {
   margin: 0 auto;
   width:1170px;
   padding:0 15px;
+
 }
 
 .top-wrapper{
@@ -69,12 +70,12 @@ header {
 .top-wrapper h1 {
   font-family: 'Homemade Apple', cursive;
   font-size: 100px;
-  color:#ff6347;
+  color:#ff69a3;
   font-weight: lighter;
 }
 .concept-wrapper {
-  height:500px;
-  padding-bottom: 80px;
+  height:550px;
+  padding-bottom: 180px;
   background-color: white;
   background-size:cover;
   text-align: center;
@@ -112,7 +113,7 @@ header {
   display:inline-block;
   opacity:0.8;
   border-radius: 1px;
-  border: solid 1px black;
+
   margin: 20px 0;
 
 
@@ -126,4 +127,150 @@ header {
   background-color: white;
   transition: 0.5s;
   color:black;
+  border: solid 1px black;
+
+}
+.btn-wrapper {
+  padding-bottom: 50px;
+}
+.manual-wrapper {
+  height:750px;
+  padding-bottom:80px;
+  background: linear-gradient(90deg,#ffdbc9 0%,#ffdbc9 50%,#ffc7af 50%,#ffc7af 100%);
+  text-align: center;
+}
+.manuals {
+  float:left;
+  width: 50%;
+}
+.heading h4 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'La Belle Aurore', cursive;
+  color: white;
+  white-space: nowrap;
+}
+.manual-icon img {
+  margin-top: 20px;
+  margin-right: 90px;
+  margin-left: 90px;
+  width:400px;
+
+}
+.manual-icon p {
+  top:90px;
+  width: 100%;
+  color:white;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: 'Caveat', cursive;
+}
+.txt-contents {
+  width:50%;
+  display: inline-block;
+  font-size:15px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+.detail {
+  background-color: #ff8856;
+  transition: 0.5s;
+  color:white;
+  border: solid 1px white;
+  opacity: 0.5;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+.massage-wrapper {
+  text-align: center;
+  padding-bottom: 80px;
+
+}
+.massage {
+  background-color: #ff5192;
+  padding: 15px 40px;
+  transition: 0.5s;
+  color:white;
+  border: solid 1px pink;
+  letter-spacing: 5px;
+}
+.heading {
+  text-align: center;
+
+}
+.heading h5 {
+　font-weight: lighter;
+  font-size: 30px;
+　margin-bottom: 5px;
+ color:#ff97c2;
+ opacity: 0.7;
+}
+.heading h6 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 70px;
+  color:#ff82b2;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+footer {
+  height:550px;
+  text-align: center;
+  background-color: #ff69a3;
+  color:white;
+}
+footer h2 {
+  margin-bottom: 5px;
+}
+.facebook {
+  background-color: #ff69a3;
+  margin-right: 10px;
+  border-radius: 4px;
+  font-size: 2.5em;
+}
+.facebook:hover {
+  transition: 0.5s;
+  background-color:#ff69a3 ;
+  color:#ff0461;
+  border: none;
+}
+.twitter {
+  background-color: #ff69a3;
+  margin-right: 20px;
+  border-radius: 4px;
+  font-size: 2.5em;
+}
+.twitter:hover {
+  transition: 0.5s;
+  color:#ff0461;
+  background-color: #ff69a3;
+  border: none;
+}
+.instagram {
+  background-color: #ff69a3;
+  margin-right: 20px;
+  border-radius: 4px;
+  font-size: 2.5em;
+}
+.instagram:hover {
+  transition: 0.5s;
+  background-color: #ff69a3;
+  color:#ff0461;
+  border: none;
+}
+
+.footer-contents li {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-right: 40px;
+  letter-spacing: 3px;
+
+}
+.footer-contents li:hover {
+  border-bottom: solid 1px white;
+
 }
