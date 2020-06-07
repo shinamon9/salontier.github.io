@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   margin:0;
 
@@ -44,7 +49,7 @@ header {
 
 .header-left {
   float:left;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -54,7 +59,7 @@ header {
 }
 .container {
   margin: 0 auto;
-  width:1170px;
+  width:100%;
   padding:0 15px;
 
 }
@@ -62,19 +67,20 @@ header {
 .top-wrapper{
   padding:100px 0 100px 0;
   position: relative;
-  background-image: url(https://www.aflo.com/pages/creative/people/img/110202316.jpg);
+  background-color: black;
   background-size: cover;
   text-align: center;
 
 }
 .top-wrapper h1 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 100px;
-  color:#ff69a3;
+  color:white;
   font-weight: lighter;
 }
+
 .concept-wrapper {
-  height:550px;
+  height:680px;
   padding-bottom: 180px;
   background-color: white;
   background-size:cover;
@@ -97,19 +103,10 @@ header {
   letter-spacing: 0.3em;
   padding-bottom: 50px;
 }
-.heading h3 {
-  font-family: 'La Belle Aurore', cursive;
-  font-size: 50px;
-  color:#ffdbc9;
-  margin-top: auto;
 
-  font-weight: lighter;
-  margin-bottom: 0px;
-
-}
 .btn {
   padding:8px 24px;
-  color:white;
+
   display:inline-block;
   opacity:0.8;
   border-radius: 1px;
@@ -120,51 +117,60 @@ header {
 }
 .btn:hover {
   background-color: white;
-  color:#ffc7af;
-  border:solid 1px #ffc7af;
+
+
 }
 .check {
-  background-color: white;
+
   transition: 0.5s;
   color:black;
   border: solid 1px black;
 
 }
+.check:hover {
+  transition: 0.5s;
+  background-color:black;
+  color:white;
+  border: solid 1px white;
+}
 .btn-wrapper {
   padding-bottom: 50px;
 }
 .manual-wrapper {
-  height:750px;
+  height:1050px;
   padding-bottom:80px;
-  background: linear-gradient(90deg,#ffdbc9 0%,#ffdbc9 50%,#ffc7af 50%,#ffc7af 100%);
+  background-color: black;
   text-align: center;
+  width:100%;
 }
 .manuals {
-  float:left;
+  margin: 0 auto;
   width: 50%;
 }
 .heading h4 {
   margin: 0 auto;
   text-align: center;
-  font-size: 40px;
-  font-family: 'La Belle Aurore', cursive;
-  color: white;
-  white-space: nowrap;
+
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.3em;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 .manual-icon img {
-  margin-top: 20px;
-  margin-right: 90px;
-  margin-left: 90px;
-  width:400px;
+
+  width:500px;
 
 }
 .manual-icon p {
   top:90px;
   width: 100%;
   color:white;
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 10px;
-  font-family: 'Caveat', cursive;
+
+  text-align: center;
 }
 .txt-contents {
   width:50%;
@@ -178,13 +184,18 @@ header {
 
 }
 .detail {
-  background-color: #ff8856;
-  transition: 0.5s;
+  background-color: black;
   color:white;
   border: solid 1px white;
-  opacity: 0.5;
   letter-spacing: 5px;
   font-weight: lighter;
+  transition: 0.5s;
+}
+.detail:hover {
+  background-color: white;
+  color:black;
+  transition: 0.8s;
+  border: solid 1px black;
 }
 .massage-wrapper {
   text-align: center;
@@ -192,13 +203,21 @@ header {
 
 }
 .massage {
-  background-color: #ff5192;
+  background-color:white;
   padding: 15px 40px;
   transition: 0.5s;
-  color:white;
-  border: solid 1px pink;
+  color:black;
+  border: solid 1px black;
   letter-spacing: 5px;
 }
+.massage:hover {
+  transition: 0.5s;
+  background-color:black;
+  color:white;
+  border: solid 1px white;
+}
+
+
 .heading {
   text-align: center;
 
@@ -207,58 +226,62 @@ header {
 　font-weight: lighter;
   font-size: 30px;
 　margin-bottom: 5px;
- color:#ff97c2;
+ color:black;
  opacity: 0.7;
 }
 .heading h6 {
-  font-family: 'La Belle Aurore', cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 70px;
-  color:#ff82b2;
+  color:black;
   margin-bottom: 20px;
   margin-top: 5px;
 }
+
 footer {
   height:550px;
   text-align: center;
-  background-color: #ff69a3;
+  background-color:black;
   color:white;
 }
 footer h2 {
   margin-bottom: 5px;
 }
 .facebook {
-  background-color: #ff69a3;
+  background-color: black;
   margin-right: 10px;
   border-radius: 4px;
   font-size: 2.5em;
+  color:white;
 }
 .facebook:hover {
   transition: 0.5s;
-  background-color:#ff69a3 ;
+  background-color:black;
   color:#ff0461;
   border: none;
 }
 .twitter {
-  background-color: #ff69a3;
+  background-color:black;
   margin-right: 20px;
   border-radius: 4px;
   font-size: 2.5em;
+  color:white;
 }
 .twitter:hover {
   transition: 0.5s;
   color:#ff0461;
-  background-color: #ff69a3;
+  background-color: black;
   border: none;
 }
 .instagram {
-  background-color: #ff69a3;
+  background-color: black;
   margin-right: 20px;
   border-radius: 4px;
   font-size: 2.5em;
+  color:white;
 }
 .instagram:hover {
   transition: 0.5s;
-  background-color: #ff69a3;
+  background-color: black;
   color:#ff0461;
   border: none;
 }
@@ -271,6 +294,14 @@ footer h2 {
 
 }
 .footer-contents li:hover {
+  border-bottom: solid 1px white;
+
+}
+.footer-contents a{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+.footer-contents a:hover {
   border-bottom: solid 1px white;
 
 }
